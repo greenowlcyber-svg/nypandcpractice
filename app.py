@@ -26,6 +26,7 @@ df = load_exam_bank()
 
 if df is not None:
     st.title("📝 NYS Property & Casualty Exam Simulator")
+    st.caption("Questions/Answers are generated using AI. No warranty or guarantee of accuracy.")
     #st.caption("Fulfill licensing standard practice parameters with dynamic performance evaluation counters.")
     
     # Initialize Persistent Session Variables
