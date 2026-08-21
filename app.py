@@ -25,7 +25,7 @@ def load_exam_bank():
 df = load_exam_bank()
 
 if df is not None:
-    st.title("📝 NYS Property & Casualty Certified Advisor Simulator")
+    st.title("📝 NYS Property & Casualty Exam Simulator")
     #st.caption("Fulfill licensing standard practice parameters with dynamic performance evaluation counters.")
     
     # Initialize Persistent Session Variables
