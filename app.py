@@ -132,7 +132,7 @@ if df is not None:
             st.subheader("🏁 Performance Review Complete")
             achieved = st.session_state.total_points
             ratio = (achieved / total_len) * 100
-            st.metric(label="Calculated Assessment Accuracy", value=f"{achieved} / {total_len}", delta=f"{ratio:.2f}%")
+            st.metric(label="Your Score", value=f"{achieved} / {total_len}", delta=f"{ratio:.2f}%")
             
             if ratio >= 70.0:
                 st.success("🟢 Passing Status Secured. Meets or exceeds NYS DFS structural baselines.")
