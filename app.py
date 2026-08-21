@@ -84,7 +84,7 @@ if df is not None:
         if step < total_len:
             active_q = current_pool[step]
             st.progress(step / total_len)
-            st.markdown(f"#### 🔎 Evaluation Node {step + 1} of {total_len}")
+            st.markdown(f"#### 🔎 Question {step + 1} of {total_len}")
             
             # Display current category tag above question
             st.caption(f"📚 Current Module: **{active_q['Category']}**")
