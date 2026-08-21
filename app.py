@@ -26,7 +26,7 @@ df = load_exam_bank()
 
 if df is not None:
     st.title("📝 NYS Property & Casualty Certified Advisor Simulator")
-    st.caption("Fulfill licensing standard practice parameters with dynamic performance evaluation counters.")
+    #st.caption("Fulfill licensing standard practice parameters with dynamic performance evaluation counters.")
     
     # Initialize Persistent Session Variables
     if 'quiz_active' not in st.session_state:
@@ -91,7 +91,7 @@ if df is not None:
             st.info(active_q['Question'])
             
             with st.form(key=f"exam_form_{step}"):
-                user_selection = st.radio("Identify proper resolution vector below:", st.session_state.active_options)
+                user_selection = st.radio("Select the best answer:", st.session_state.active_options)
                 process_trigger = st.form_submit_button("Verify Solution")
                 
             if process_trigger or st.session_state.has_responded:
@@ -103,11 +103,11 @@ if df is not None:
                     
                 # Display permanent review metrics post-submission
                 if user_selection == active_q['Correct_Answer']:
-                    st.success("🎯 Evaluation Verified: Correct Response.")
+                    st.success("🎯 Correct Response.")
                 else:
-                    st.error(f"❌ Incorrect. Certified Target: {active_q['Correct_Answer']}")
+                    st.error(f"❌ Incorrect: {active_q['Correct_Answer']}")
                 
-                st.markdown("##### 💡 Educational Summary & Key Learning Points")
+                st.markdown("##### 💡 Key Learning Points")
                 st.warning(active_q['Key_Learning_Point'])
                 st.markdown(f"🔗 [Review Official Department of Financial Services Reference Framework]({active_q['Reference_Link']})")
                 
