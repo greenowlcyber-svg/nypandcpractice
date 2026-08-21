@@ -38,7 +38,7 @@ if df is not None:
         st.session_state.active_options = []
 
     if not st.session_state.quiz_active:
-        st.subheader("⚙️ Exam Session Initialization")
+        #st.subheader("⚙️ Exam Session Initialization")
         
         # Category selection box
         available_categories = ["All Categories"] + sorted(list(df['Category'].unique()))
