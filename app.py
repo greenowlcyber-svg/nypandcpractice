@@ -349,7 +349,7 @@ and New York licensing law and ethics.
 **Question bank available: {total_available} questions.**
 """
     )
-    st.warning(DISCLAIMER_TEXT)
+    #st.warning(DISCLAIMER_TEXT)
 
     mode_label = st.radio(
         "Choose a quiz mode:",
