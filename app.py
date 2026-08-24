@@ -644,8 +644,8 @@ confirm anything here against official DFS materials and your approved
 pre-licensing course.
 
 **Official resources:**
-- [NY DFS Licensing](https://www.dfs.ny.gov/licensing)
-- [NY DFS Auto Insurance / No-Fault](https://www.dfs.ny.gov/consumers/auto_insurance/no_fault_insurance)
+- [NY DFS Licensing](https://www.dfs.ny.gov/apps_and_licensing/agents_and_brokers)
+- [NY DFS Auto Insurance / No-Fault](https://www.dfs.ny.gov/consumers/auto_insurance/minimum_auto_insurance_requirements)
 - [NY Workers' Compensation Board](https://www.wcb.ny.gov)
 - [NY Insurance Law (full text)](https://www.nysenate.gov/legislation/laws/ISC)
 - [NY DFS Series 17-56 Topic Locator](https://www.dfs.ny.gov/system/files/documents/2020/11/prel_pca_2018.pdf)
